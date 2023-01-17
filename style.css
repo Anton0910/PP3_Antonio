@@ -1,3 +1,7 @@
+h1{
+    font-size: 1.5rem;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +18,7 @@
     float: right;
     font-size: 2rem;
     position: relative;
-    left: 50%;
+    left: 40%;
 }
 
 @media (max-width: 768px) {
@@ -124,9 +128,7 @@ header
 
 
 
-.breadcrumb{
-    margin-left: 20px;
-}
+
 
 .nav-list{
   
@@ -138,7 +140,7 @@ header
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
   .mobile a:hover {
@@ -148,6 +150,7 @@ header
   .breadcrumb a{
     text-decoration: none;
     color: white;
+    font-size: 1rem;
   }
   
   .logo {
@@ -277,7 +280,7 @@ header
   
     
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     line-height: 2rem;
 }
@@ -473,7 +476,7 @@ form{
      margin-top: 50px;
      width: 45vw;
      border: solid 2px;
-     height: 85vh;
+     height: 95vh;
      background:  #42959b;
      box-shadow: 0 5px 15px rgba(0,0,0,0.6);
      border-radius: 10px;
@@ -494,12 +497,13 @@ form{
 }
 
 label{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .formulario p{
     margin-bottom: 5px;
     margin-top: 10px;
+   
 }
 
 
@@ -538,7 +542,7 @@ label{
     max-width: 100%;
     min-width: 100%;
     min-height: 190px;
-    height: 190px;
+    height: 100px;
     color: #3c3c3b;
     border: none;
     border-bottom: 1px solid #575756;
