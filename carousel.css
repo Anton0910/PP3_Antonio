@@ -1,0 +1,28 @@
+.carousel-item {
+    height: 32rem;
+    width: auto;
+    color: white;
+    position:relative;
+}
+
+
+
+
+
+
+
+.carousel-indicators{
+    margin-left: 100px;
+}
+
+.carousel-item img{
+width: 64vw;
+}
+
+.cont-texto{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+

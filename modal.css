@@ -1,0 +1,37 @@
+#JanelaModal{
+    display: none;
+}
+
+@media screen and (max-width: 767px ) and (min-width: 362px){ 
+
+    #JanelaModal{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 365px ) and (min-width: 290px){ 
+
+    #JanelaModal{
+        width: 90vw;
+        height: 100vh;
+    }
+
+    .botoes input, button{
+       font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 286px ) and (min-width: 10px){ 
+
+    #JanelaModal{
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .botoes input, button{
+       font-size: 1.2rem;
+    }
+
+}
